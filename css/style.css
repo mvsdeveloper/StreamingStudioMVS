@@ -1,0 +1,88 @@
+
+html, body {
+	background: url(../images/BACK.svg);
+	background-size: cover;
+	font-family: Arial,sans-serif;
+	color:#000;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+h1 {
+	font-size: 24px;
+}
+h5 {
+	width: 100%;
+	display: block;
+	margin: 0;
+	text-align: center;
+	padding: 1rem 0;
+}
+.row .col {
+    padding: 0;
+}
+.collection {
+    margin: 0.5rem;
+	border: none;
+}
+.collection-item .row {
+	margin: 0;
+}
+.top, .bottom {
+	background: rgba(255,255,255,.2);
+	padding: 1rem 0;
+	color:#f1f1f1;
+	text-shadow: 1px 1px 2px #333;
+	font-weight: 800;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bottom {
+	margin-bottom: 0;
+}
+.cim {
+	width: 18%;
+	height: auto;
+}
+.dwn {
+	position: fixed;
+	bottom: 0;
+	width:100%;
+}
+.lgn {
+	background: rgba(255,255,255,1);
+}
+.top h1, .top img {
+	margin: 0;
+	max-width: 100%;
+	text-align: center;
+	font-size: 1.5rem;
+}
+.chat {
+	background: rgba(255,255,255,.1);
+	width: 100%;	
+}
+.pch {
+	height: 50vh;
+}
+
+.player, .chat, .chatc, .chbx {
+	height: 100%;
+}
+.chbx {
+	height: 88%;
+	text-align: center;
+	padding: 1rem 2rem !important;
+}
+.section-bottom {
+	height: 35vh;
+	overflow-y: scroll;
+	background: #fff;
+	padding:0!important;
+}
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+	.login {
+		width: 80%;
+	}
+}
